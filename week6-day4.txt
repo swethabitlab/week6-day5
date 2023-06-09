@@ -1,0 +1,63 @@
+static keyword: used for memory management
+static method can access the static data member and can change the value of it.it invoked without the need for creating
+instance of a class.static method access directly in static and non-static method.
+*within the static method cannot use non-static members/call non-static methods directly
+*this and super keywords cannot be used in static method
+static block is used for initialize the static variables and static block executed before the main method.
+static class cannot access the non-static members of outer class.
+
+PRINCIPLES OF OOPS:
+ There are four principles of OOPS,they are;
+1.Inheritance
+2.Polymorphism
+3.Encapsulation
+4.Abstraction
+
+1.Inheritance:
+  deriving new classes from existing classes such that the new classes aquires all the features of existing classes is 
+called as "Inheritance".
+Advantages:
+*Redundancy of the code is reduced.
+*Reduces code size.
+
+2.Polymorphism:
+  Polymorphism means ability to take more than one forms.
+*Polymorphism allows objects that having different internal structures to share the same external interface.
+*Extensively used in implementing the inheritance.
+
+3.Encapsulation:
+  Wrapping up of data and methods that manipulates the data into a single unit is called as "Encapsulation".
+*data is not accessible to outside world and only methods can access it.
+*Encapsulation is used for data hiding.
+
+4.Abstraction:
+  Abstraction is a process of hiding all unnecessary implementation details and exposing only the required 
+ functionalities.
+ 
+* If there is is a relationship between the classes go for the inheritance.
+Types of inheritance:
+*single inheritance
+*multi-level inheritance
+*Hierachical inheritance
+*multiple inheritance
+*Hybrid inheritance
+
+what all can be done in a subclass:
+ØThe inherited fields can be used directly, just like any other fields.
+ 
+
+ØWe can declare new fields in the subclass that are not in the superclass.
+ 
+
+ØThe inherited methods can be used directly as they are.
+ 
+
+ØWe can write a new instance method in the subclass that has the same signature as the one in the superclass,thus
+ overriding it .
+ 
+
+ØWe can declare new methods in the subclass that are not in the superclass.
+ 
+
+ØWe can write a subclass constructor that invokes the constructor of the superclass, either implicitly or by using the 
+keyword super 

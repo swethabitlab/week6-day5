@@ -1,0 +1,39 @@
+Inheritance:
+* If there is is a relationship between the classes go for the inheritance.
+Types of inheritance:
+*single inheritance
+*multi-level inheritance
+*Hierachical inheritance
+*multiple inheritance
+*Hybrid inheritance
+
+what all can be done in a subclass:
+*The inherited fields can be used directly, just like any other fields.
+ 
+
+*We can declare new fields in the subclass that are not in the superclass.
+ 
+
+*The inherited methods can be used directly as they are.
+ 
+
+*We can write a new instance method in the subclass that has the same signature as the one in the superclass,thus
+ overriding it.
+ 
+
+*We can declare new methods in the subclass that are not in the superclass.
+ 
+
+*We can write a subclass constructor that invokes the constructor of the superclass, either implicitly or by using the 
+keyword super. 
+
+super keyword:
+ super keyword is used to represent super class object from sub classes.
+*super can be used to refer the immediate parent class instance variable.
+*super can be used to invoke immediate parent class method.
+*super() can be used to invoke immediate parent class method.
+-->all the super class constructor can call from subclass constructor but,super() must be write in the first statement only.
+-->whenever we call no-args constructor from parameterized constructor ,writing super() is optional
+-->whenever we call no-args/parameterized constructor from parameterized constructor ,writing super() is mandatory
+-->whenever subclass object need to be created ,JVM has to load subclass byte code into memory.but in inheritance,since 
+subclass extends super class,JVM has to first load superclass bytecode into memory .
